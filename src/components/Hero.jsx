@@ -30,18 +30,18 @@ export default function Hero({ onJoinWaitlist }) {
       <div className="flex w-full pb-8 relative backdrop-blur-none scale-100 justify-center">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] h-[80%] bg-blue-100 blur-[90px] rounded-full -z-10 opacity-60 pointer-events-none" />
         <img
-          src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/555a77f3-f086-4f6b-9bee-5b5e25d582af_800w.png"
+          src="/hero.png"
           alt="7K Mobile App Interface"
           className="md:max-w-[500px] lg:max-w-[540px] transform hover:scale-[1.01] transition-transform duration-500 w-full max-w-[340px] object-contain z-10 relative shadow scale-95"
           style={{ maskImage: 'linear-gradient(transparent, black 5%, black 75%, transparent)' }}
         />
 
-        <div className="absolute top-[40%] left-[24%] z-50 animate-bounce duration-[3000ms] hidden md:block">
+        <div className="absolute top-[46%] left-[24%] z-50 animate-bounce duration-[3000ms] hidden md:block">
           <div className="bg-white border-gray-50 border rounded-xl pt-2 pr-3 pb-2 pl-3 flex !scale-[1.75] origin-right transform-gpu gap-x-2 gap-y-2 items-center shadow-lg">
             <div className="text-green-600 bg-green-100 rounded-full pt-1.5 pr-1.5 pb-1.5 pl-1.5 flex">
               <Icon icon="solar:bolt-linear" width={16} height={16} />
             </div>
-            <div className="text-left">
+            <div className="text-left ">
               <div className="text-[10px] leading-tight font-medium text-gray-500">Latency</div>
               <div className="leading-tight text-xs font-semibold text-gray-900">Lightning</div>
             </div>

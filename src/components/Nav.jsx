@@ -3,9 +3,9 @@ export default function Nav({ onJoinWaitlist }) {
     <nav className="flex sticky z-40 transition-all duration-300 bg-[#F9FAFB]/90 w-full max-w-7xl border-transparent border-b pt-4 pr-6 pb-4 pl-6 top-0 backdrop-blur-md items-center justify-between">
       <a href="#" className="block">
         <img
-          src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/0b2e12d6-456f-4c10-9db1-e243c0d82ac6_320w.png"
+          src="/logo.svg"
           alt="MonoPay"
-          className="w-auto h-8 object-cover"
+          className="w-auto h-20 object-cover"
         />
       </a>
       <button

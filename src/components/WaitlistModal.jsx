@@ -1,22 +1,16 @@
-import { useState, useEffect } from 'react'
 import { Icon } from '@iconify/react'
+import { useForm, ValidationError } from '@formspree/react'
 
 const LOGO_URL = 'https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/0b2e12d6-456f-4c10-9db1-e243c0d82ac6_320w.png'
 
 export default function WaitlistModal({ isOpen, onClose }) {
-  const [showSuccess, setShowSuccess] = useState(false)
-
-  useEffect(() => {
-    if (isOpen) setShowSuccess(false)
-  }, [isOpen])
+  const [state, handleSubmit] = useForm('mbdzjpky')
 
   const handleOverlayClick = (e) => {
     if (e.target === e.currentTarget) onClose()
   }
 
-  const handleSubmit = () => {
-    setShowSuccess(true)
-  }
+  const showSuccess = state.succeeded
 
   if (!isOpen) return null
 
@@ -33,9 +27,9 @@ export default function WaitlistModal({ isOpen, onClose }) {
       >
         <div className="bg-white rounded-[2rem] shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] p-8 md:p-10 flex flex-col items-center text-center relative overflow-hidden border border-gray-100 min-h-[420px] justify-center">
           {/* Form State */}
-          <div
+          <form
+            onSubmit={handleSubmit}
             className={`w-full flex flex-col items-center transition-opacity duration-300 ${showSuccess ? 'opacity-0 absolute pointer-events-none' : 'opacity-100'}`}
-            onAnimationEnd={showSuccess ? undefined : undefined}
           >
             <div className="mb-6">
               <img src={LOGO_URL} alt="MonoPay" className="h-10 w-auto object-contain" />
@@ -45,27 +39,34 @@ export default function WaitlistModal({ isOpen, onClose }) {
               Enter your details and we&apos;ll let you know the moment MonoPay is live on Solana.
             </p>
             <div className="w-full space-y-4">
-              <input
-                type="email"
-                placeholder="Enter your Email"
-                className="w-full px-5 py-3.5 rounded-xl border-2 border-black text-gray-900 placeholder:text-gray-500 font-medium focus:outline-none focus:ring-0 transition-colors bg-white"
-              />
+              <div>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your Email"
+                  className="w-full px-5 py-3.5 rounded-xl border-2 border-black text-gray-900 placeholder:text-gray-500 font-medium focus:outline-none focus:ring-0 transition-colors bg-white"
+                />
+                <ValidationError prefix="Email" field="email" errors={state.errors} className="text-red-500 text-sm mt-1 block" />
+              </div>
               <div className="relative w-full">
                 <input
+                  id="username"
                   type="text"
+                  name="username"
                   placeholder="Your Username"
                   className="w-full pl-5 pr-14 py-3.5 rounded-xl border-2 border-black text-gray-900 placeholder:text-gray-500 font-medium focus:outline-none focus:ring-0 transition-colors bg-white"
                 />
                 <button
-                  type="button"
-                  onClick={handleSubmit}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#111] text-white p-2 rounded-lg hover:bg-gray-800 transition-colors"
+                  type="submit"
+                  disabled={state.submitting}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#111] text-white p-2 rounded-lg hover:bg-gray-800 transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
                 >
                   <Icon icon="solar:arrow-right-linear" width={16} height={16} strokeWidth={2.5} />
                 </button>
               </div>
             </div>
-          </div>
+          </form>
 
           {/* Success State */}
           <div
