@@ -1,8 +1,6 @@
 import { Icon } from '@iconify/react'
 import { useForm, ValidationError } from '@formspree/react'
 
-const LOGO_URL = 'https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/0b2e12d6-456f-4c10-9db1-e243c0d82ac6_320w.png'
-
 export default function WaitlistModal({ isOpen, onClose }) {
   const [state, handleSubmit] = useForm('mbdzjpky')
 
@@ -32,7 +30,7 @@ export default function WaitlistModal({ isOpen, onClose }) {
             className={`w-full flex flex-col items-center transition-opacity duration-300 ${showSuccess ? 'opacity-0 absolute pointer-events-none' : 'opacity-100'}`}
           >
             <div className="mb-6">
-              <img src={LOGO_URL} alt="MonoPay" className="h-10 w-auto object-contain" />
+              <img src="logo.svg" alt="MonoPay" className="h-10 w-auto object-contain" />
             </div>
             <h3 className="text-3xl font-bold tracking-tight text-gray-900 mb-2">Your MonoPay invite</h3>
             <p className="font-quicksand text-base text-gray-500 font-medium mb-8 leading-snug max-w-[260px]">

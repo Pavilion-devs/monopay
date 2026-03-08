@@ -20,7 +20,7 @@ export default function Hero({ onJoinWaitlist }) {
           </p>
           <button
             onClick={onJoinWaitlist}
-            className="bg-blue-600 text-white px-8 py-3 rounded-full text-base font-medium hover:bg-blue-700 transition-all shadow-[0_4px_14px_0_rgba(37,99,235,0.39)] active:scale-95"
+            className="bg-[#111] text-white px-8 py-3 rounded-full text-base font-medium hover:bg-blue-700 transition-all shadow-[0_4px_14px_0_rgba(37,99,235,0.39)] active:scale-95"
           >
             Join the MonoPay waitlist
           </button>
@@ -30,7 +30,7 @@ export default function Hero({ onJoinWaitlist }) {
       <div className="flex w-full pb-8 relative backdrop-blur-none scale-100 justify-center">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] h-[80%] bg-blue-100 blur-[90px] rounded-full -z-10 opacity-60 pointer-events-none" />
         <img
-          src="/hero.png"
+          src="/heroo.png"
           alt="7K Mobile App Interface"
           className="md:max-w-[500px] lg:max-w-[540px] transform hover:scale-[1.01] transition-transform duration-500 w-full max-w-[340px] object-contain z-10 relative shadow scale-95"
           style={{ maskImage: 'linear-gradient(transparent, black 5%, black 75%, transparent)' }}
