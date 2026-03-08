@@ -30,7 +30,7 @@ export default function WaitlistModal({ isOpen, onClose }) {
             className={`w-full flex flex-col items-center transition-opacity duration-300 ${showSuccess ? 'opacity-0 absolute pointer-events-none' : 'opacity-100'}`}
           >
             <div className="mb-6">
-              <img src="logo.svg" alt="MonoPay" className="h-10 w-auto object-contain" />
+              <img src="/logo.png" alt="MonoPay" className="h-10 w-auto object-contain" />
             </div>
             <h3 className="text-3xl font-bold tracking-tight text-gray-900 mb-2">Your MonoPay invite</h3>
             <p className="font-quicksand text-base text-gray-500 font-medium mb-8 leading-snug max-w-[260px]">
@@ -71,7 +71,7 @@ export default function WaitlistModal({ isOpen, onClose }) {
             className={`w-full flex flex-col items-center justify-center p-8 text-center transition-opacity duration-300 ${showSuccess ? 'opacity-100' : 'opacity-0 pointer-events-none absolute inset-0'}`}
           >
             <div className="mb-8">
-              <img src={LOGO_URL} alt="MonoPay" className="h-10 w-auto object-contain" />
+              <img src="/logo.png" alt="MonoPay" className="h-10 w-auto object-contain" />
             </div>
             <h3 className="text-3xl font-semibold tracking-tight text-gray-900 mb-4">Thank you!</h3>
             <p className="font-quicksand text-base text-gray-500 font-medium mb-10 leading-snug max-w-[280px] mx-auto">

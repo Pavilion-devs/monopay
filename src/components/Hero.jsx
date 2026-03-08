@@ -20,7 +20,7 @@ export default function Hero({ onJoinWaitlist }) {
           </p>
           <button
             onClick={onJoinWaitlist}
-            className="bg-[#111] text-white px-8 py-3 rounded-full text-base font-medium hover:bg-blue-700 transition-all shadow-[0_4px_14px_0_rgba(37,99,235,0.39)] active:scale-95"
+            className="bg-[#111] text-white px-8 py-3 rounded-full text-base font-medium border border-transparent hover:bg-white hover:text-black hover:border-black transition-all shadow-[0_4px_14px_0_rgba(37,99,235,0.39)] active:scale-95"
           >
             Join the MonoPay waitlist
           </button>
