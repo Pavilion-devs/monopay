@@ -1,0 +1,146 @@
+Here's your complete pitch deck content — 10 slides, nothing wasted:
+
+---
+
+**SLIDE 1 — Cover**
+# Monopay
+### Simple. Private. Payments.
+*Stablecoin payments for everyone — not just crypto natives*
+
+---
+
+**SLIDE 2 — The Problem (User Story)**
+# Meet Amara
+
+*Amara is a 34-year-old teacher in Lagos. Her brother sends her money from London every month. It takes 3 days, costs 8% in fees, and arrives in an amount she didn't expect because of exchange rates.*
+
+*Her friend tells her about crypto. She downloads a wallet app. She sees this:*
+
+***"Send to: 7xKp3...mN9qR2vL"***
+
+*She closes the app and never opens it again.*
+
+**Amara is not the exception. She is the majority.**
+
+---
+
+**SLIDE 3 — The Market**
+# Everyone With a Phone Is Our Market
+
+- 🌍 **6.8 billion** smartphone users globally
+- 💸 **$800B+** in annual remittance flows to emerging markets
+- 🇳🇬 Nigeria & 🇮🇳 India — top 3 remittance recipients in the world
+- 📈 Stablecoin transaction volume hit **$27.6T in 2024** — surpassing Visa
+- The market isn't waiting. It's already moving.
+
+---
+
+**SLIDE 4 — The Solution**
+# Monopay: Show Simplicity. Hide Complexity.
+
+Three things that change everything:
+
+**① Nickname not wallet address**
+Send to "@amara" not "7xKp3...mN9qR2vL"
+
+**② Scan to Pay**
+Merchants display a QR code. Customers scan and pay in seconds.
+
+**③ Private transactions**
+No one can see your amounts or activity on the blockchain explorer. It feels like cash.
+
+*Powered by stablecoins — so it always feels like real money, never volatile crypto.*
+
+---
+
+**SLIDE 5 — Product (Screenshots)**
+# It Works. Right Now.
+
+*[Insert your best 2-3 app screenshots here]*
+
+- ✅ Fully functional MVP
+- ✅ 50 real users actively testing
+- ✅ Built in under 30 days
+- ✅ Live on Solana mainnet
+
+---
+
+**SLIDE 6 — Why Now**
+# The Moment Is Here
+
+- Stablecoins just got their biggest regulatory green light with the US GENIUS Act moving forward
+- Solana Mobile's Seeker is putting a crypto-native phone in millions of hands
+- The narrative has shifted — even traditional banks are exploring stablecoin rails
+- **The infrastructure is ready. The users are ready. The missing piece was a payments app built for them — not for crypto experts.**
+
+---
+
+**SLIDE 7 — Business Model**
+# How MonoPay Makes Money
+
+| Stream | Detail |
+|---|---|
+| Subscription payments | Small fee on recurring billing |
+| Merchant accounts | Premium features for businesses |
+| Bank withdrawal fee | Small flat fee on fiat offramp |
+
+*We never charge the sender visibly — payments feel free, like WhatsApp.*
+
+---
+
+**SLIDE 8 — Roadmap**
+# What We're Building Next
+
+**Now → 3 months**
+- Chat-style transaction history
+- Audio payment confirmations (habit building)
+- Subscription payments infrastructure
+-Local bank withdrawal — cash out stablecoins to your local bank account
+- 500 monthly active transacting users
+
+**3 → 6 months**
+- First 10 active merchants onboarded
+- 500 monthly active transacting users
+
+**6 → 12 months**
+- Physical QR devices for shop fronts with voice notifications
+- Traditional bank integrations — reflect bank balance with on-chain state
+
+---
+
+**SLIDE 9 — The Team**
+# Built By People Who Live This Problem
+
+**Rohaan Sahu — CEO & Co-Founder**
+Engineer. Saw the payment friction problem firsthand growing up in India. Conceived Monopay and assembled the team.
+
+**Favour Olaboye — CTO & Co-Founder**
+Engineer. Nigerian. Has watched family navigate broken cross-border payments his whole life. Built the entire MVP in under 30 days. Superteam Earn bounty contributor on Solana.
+
+*We are not observers of this problem. We are the user.*
+
+---
+
+**SLIDE 10 — 
+# Join Us at The Starting Line
+
+We are raising and Also open to:** Solana Foundation grants, ecosystem partnerships
+
+**What we do with funding:**
+- 30% — Product development
+- 40% — Growth & marketing
+- 30% — Infrastructure, compliance & operations
+
+**Goal:** 500> monthly active transacting users and $50,000 USDC processed within 6 months of funding.
+
+*The next billion users don't need another crypto app. They need Monopay.*
+
+---
+
+## 💡 Design Tips When Building This
+
+- **Slide 2** is your most important slide — make Amara's story visual, maybe show the scary wallet address in big red text
+- **Slide 4** use big bold icons for each of the three features
+- **Slide 5** is where screenshots do the heavy lifting — make them large and clean
+- Keep every slide to **one dominant idea** — if you need to read it, it has too many words
+- Color palette suggestion: clean white background, use the landing page theme and styling to design it. goodlick
